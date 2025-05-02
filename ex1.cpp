@@ -44,20 +44,23 @@ void Stack::push(int x)
                 cout<<"Stack is Underflow"<<endl;
                 return -1;
             }
+        }
             bool Stack:: isEmpty()
             {
                 if (tos==-1)
                 {
                     return true;
                 }
-                else{
+                else
+                {
                     return false;
                 }
+            }
                 int main()
                 {
                     Stack obj;
                     int x=10;
-                    for (int i = 1; i < =6; i++)
+                    for (int i = 1; i <=6; i++)
                     {
                         obj.push(x);
                         x=x+10;
@@ -76,10 +79,8 @@ void Stack::push(int x)
                     
                 }
                 
-            }
-        }
+            
+        
         
 
-    }
-}
-}
+    
