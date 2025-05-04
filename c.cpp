@@ -61,41 +61,97 @@
 using namespace std;
 int main()
 {
-  int w;
-  cout<<"Enter a no. b/t 1-7:";
-  cin>>w;
-  if (w==1)
+  // int w;
+  // cout<<"Enter a no. b/t 1-7:";
+  // cin>>w;
+  // if (w==1)
+  // {
+  //   cout<<"Sunday";
+  // }
+  // else if (w==2)
+  // {
+  //   cout<<"Monday";
+  // }
+  // else if (w==3)
+  // {
+  //   cout<<"Tuesday";
+  // }
+  // else if (w==4)
+  // {
+  //   cout<<"Wednesday";
+  // }
+  // else if (w==5)
+  // {
+  //   cout<<"Thursday";
+  // }
+  // else if (w==6)
+  // {
+  //   cout<<"Friday";
+  // }
+  // else if(w==7)
+  // {
+  //   cout<<"Saturday";
+  // }
+  // else
+  // {
+  //   cout<<"Invalid no.";
+  // }
+  int path;
+cout<<"Enter a path:";
+cin>>path;
+if (path==1)
+{
+  cout<<"Enter a path:";
+cin>>path;
+if (path==4)
+{
+ cout<<"Arrived"; 
+}
+else if (path==2)
+{
+  cout<<"Enter a path:";
+  cin>>path;
+}
+else
+{
+  cout<<"Enter a path:";
+  cin>>path;
+}
+ if (path==4)
+{
+  cout<<"Arrived";
+}
+else if (path==3)
+{
+  cout<<"Enter a path:";
+  cin>>path;
+  if (path==4)
   {
-    cout<<"Sunday";
+    cout<<"Arrived";
   }
-  else if (w==2)
-  {
-    cout<<"Monday";
-  }
-  else if (w==3)
-  {
-    cout<<"Tuesday";
-  }
-  else if (w==4)
-  {
-    cout<<"Wednesday";
-  }
-  else if (w==5)
-  {
-    cout<<"Thursday";
-  }
-  else if (w==6)
-  {
-    cout<<"Friday";
-  }
-  else if(w==7)
-  {
-    cout<<"Saturday";
-  }
-  else
-  {
-    cout<<"Invalid no.";
-  }
+  
+
+}
+
+
+
+
+
+
+//  if(path==2)
+//   {
+    
+//   }
+  
+}
+
+
+// else
+// {
+//   cout<<"Invalide route"
+// }
+
+
 }
 
   
