@@ -198,9 +198,11 @@ int main()
 //     sum=sum+rem;
 //   }
 //   cout<<sum;
- int number=121; 
+ int number; 
 int org=number;
 int digit,rev=0;
+cout<<"Enter any Number:";
+cin>>number;
 while(number!=0)
 {
 
@@ -211,13 +213,14 @@ number=number/10;
 }
 cout<<rev;
 
-if(rev==org)
-{
-    cout<<"pallindrome";
+// if(rev==org)
+// {        
+//     cout<<"pallindrome";
+// }
+// else
+// {
+//  cout<<"not a pallindrome";
+// } 
 }
-else
-{
- cout<<"not a pallindrome";
-} 
-}
+
 
