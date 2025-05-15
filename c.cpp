@@ -166,7 +166,7 @@ int main()
   //   fact=fact*i;
   // }
   // cout<<"Factorial is:"<<fact;
-  
+
   // alt+shift+downkey
   // int a=1,table;
   // cout<<"Enter an no.:";
@@ -178,49 +178,62 @@ int main()
   //  a++;
 
   // } while (a<=10);
-//   int n1=10,n2=9;
-//   int i=0;
-//   for(n1=i,i<=0,++i)
-//   {
-// cout<<i++;
-//   }
+  //   int n1=10,n2=9;
+  //   int i=0;
+  //   for(n1=i,i<=0,++i)
+  //   {
+  // cout<<i++;
+  //   }
 
+  // int i,sum,rem;
+  //   cout<<"Enter three Integer no.:";
+  //   cin>>i;
+  //   for(sum=0;i>0;i/10)
+  //   {
+  //     rem=i%10;
+  //     sum=sum+rem;
+  //   }
+  //   cout<<sum;
+  //  int number;
+  // int org=number;
+  // int digit,rev=0;
+  // cout<<"Enter any Number:";
+  // cin>>number;
+  // while(number!=0)
+  // {
 
+  // digit=number%10;
+  // rev =rev*10+digit;
+  // number=number/10;
 
+  // }
+  // cout<<rev;
 
+  // if(rev==org)
+  // {
+  //     cout<<"pallindrome";
+  // }
+  // else
+  // {
+  //  cout<<"not a pallindrome";
+  // }
 
-// int i,sum,rem;
-//   cout<<"Enter three Integer no.:";
-//   cin>>i;
-//   for(sum=0;i>0;i/10)
-//   {
-//     rem=i%10;
-//     sum=sum+rem;
-//   }
-//   cout<<sum;
- int number; 
-int org=number;
-int digit,rev=0;
-cout<<"Enter any Number:";
-cin>>number;
-while(number!=0)
-{
+  // print right angle tringle * using nested loop.
 
-digit=number%10;
-rev =rev*10+digit;
-number=number/10;
+  for (int r = 1; r <= 5; ++r)
+  {
 
+    for (int c = 1; c <= 5; ++c)
+    {
+      if (c <= r)
+      {
+        cout << "*";
+      }
+      else
+        cout << " ";
+    }
+    cout << endl;
+  }
+
+  
 }
-cout<<rev;
-
-// if(rev==org)
-// {        
-//     cout<<"pallindrome";
-// }
-// else
-// {
-//  cout<<"not a pallindrome";
-// } 
-}
-
-
