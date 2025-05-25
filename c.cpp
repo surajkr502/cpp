@@ -1,5 +1,5 @@
-King, [5/17/2025 10:50 PM]
-# include <iostream>
+// King, [5/17/2025 10:50 PM]
+#include <iostream>
 # include <limits>
 # include <cmath>
 using namespace std;
@@ -14,6 +14,7 @@ int main()
 // cout<<"enter the value of your radius";
 // cin>>radius;
 // cout<<radius*radius*22/7;
+
 
 // int side;
 // cout<<"enter the side of square";
@@ -277,7 +278,7 @@ int main()
 //     cout<<"Invalid input";
 // }
 
-King, [5/17/2025 10:50 PM]
+// King, [5/17/2025 10:50 PM]
 // char single;
 // cout<<"Enter the character: ";
 // cin>>single;
@@ -539,7 +540,7 @@ King, [5/17/2025 10:50 PM]
 
 //
 
-King, [5/17/2025 10:50 PM]
+// King, [5/17/2025 10:50 PM]
 // do
 // {
 //         cout<<2*i;
@@ -922,7 +923,7 @@ King, [5/17/2025 10:50 PM]
 // for( int r=1;r<=5;++r)
 // {
 
-King, [5/17/2025 10:50 PM]
+// King, [5/17/2025 10:50 PM]
 // for( int c=1;c<=5;++c)
 // {
 
