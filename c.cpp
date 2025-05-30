@@ -1,4 +1,3 @@
-// King, [5/17/2025 10:50 PM]
 #include <iostream>
 # include <limits>
 # include <cmath>
