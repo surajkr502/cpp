@@ -66,15 +66,14 @@ int main()
     // cout<<"Time in mins:"<<conv;
 
     int a;
-    float conv;
+    float conv,conv1;
     cout<<"Enter time in min:";
     cin>>a;
-    conv=a/60.0;    
-    cout<<"Time is:"<<conv <<"hr";
+    conv=a/60; 
+    conv1=a%60;
 
-
-
-return 0;
+    cout<<"Time is: "<<conv <<"hr" <<conv1 <<"min"<<endl;
+    return 0;
 
 
 
