@@ -47,14 +47,31 @@ int main()
 
 
     // # SWAPING THE NO.----------
-    int a,b,c;
-    cout<<"Enter 2 integers:";
-    cin>>a>>b;
-    cout<<"Before swapping 'a' is:"<<a<<endl<<"Before swapping 'b' is:"<<b<<endl;
-    c=a;
-    a=b;
-    b=c;
-    cout<<"After swapping 'a' is:"<<a<<endl<<"After swapping 'b' is:"<<b;
+    // Using 3 vareable------
+
+    // int a,b,c;
+    // cout<<"Enter 2 integers:";
+    // cin>>a>>b;
+    // cout<<"Before swapping 'a' is:"<<a<<endl<<"Before swapping 'b' is:"<<b<<endl;
+    // c=a;
+    // a=b;
+    // b=c;
+    // cout<<"After swapping 'a' is:"<<a<<endl<<"After swapping 'b' is:"<<b;
+     
+    // # WAP to convert the min into hrs and viseversa------------
+    // int a,conv;
+    // cout<<"Enter time in hrs:";
+    // cin>>a;
+    // conv=(float)a*60;    //this is type casting.
+    // cout<<"Time in mins:"<<conv;
+
+    int a;
+    float conv;
+    cout<<"Enter time in min:";
+    cin>>a;
+    conv=a/60.0;    
+    cout<<"Time is:"<<conv <<"hr";
+
 
 
 return 0;
