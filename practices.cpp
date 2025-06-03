@@ -42,7 +42,8 @@ int main()
     // cin>>r;
     // area=3.14*pow(r,2);
     // circ=2*3.14*r;
-    // cout<<"Area of Circle is:"<<area<<endl;
+    // cout<<"Area of Circle is:"<<(int)area<<endl; //Type cating----------
+
     // cout<<"Circumference of Circle is:"<<circ;
 
 
@@ -62,17 +63,88 @@ int main()
     // int a,conv;
     // cout<<"Enter time in hrs:";
     // cin>>a;
-    // conv=(float)a*60;    //this is type casting.
+    // conv=a*60; 
     // cout<<"Time in mins:"<<conv;
 
-    int a;
-    float conv,conv1;
-    cout<<"Enter time in min:";
-    cin>>a;
-    conv=a/60; 
-    conv1=a%60;
+    // int a,conv,conv1;
+    // cout<<"Enter time in min:";
+    // cin>>a;
+    // conv=a/60; 
+    // conv1=a%60;
+    // cout<<"Time is: "<<conv <<"hr" <<conv1 <<"min"<<endl;
 
-    cout<<"Time is: "<<conv <<"hr" <<conv1 <<"min"<<endl;
+
+
+    // # Decision control statement-----------------------
+
+    // Odd and Even---
+
+    // int a,b,c;
+    // cout<<"Enter an Integers no.:";
+    // cin>>a;
+    // if(a%2==0)
+    // {
+    //     cout<<"Number is even";
+        
+    // }
+    // else if(a==0)
+    // {
+    //      cout<<"Number is even";
+    // }
+    // else
+    // {
+    //   cout<<"Number is odd";  
+    // }
+
+    // eligible for vote---
+
+    // int a;
+    // cout<<"Enter your age in year:";
+    // cin>>a;
+    // if(a>=18)
+    // {
+    //  cout<<"Your are eligible for vote";   
+    // }
+    // else if(a<=0)
+    // {
+    //  cout<<"Wrong input";   
+    // }
+    // else
+    //    cout<<"Your are not eligible for vote";  
+
+
+
+    // int a;
+    // cout<<"Enter a age:";
+    // cin>>a;
+    // if(a<3)
+    // {
+    //     cout<<"Baby";
+
+    // }
+    // else if(a<=13)
+    // {
+    //     cout<<"Child";
+    // }
+    // else if(a>=3 && a<=18)
+    // {
+    //     cout<<"Growing stage";
+    // }
+    // else
+    // {
+    //     cout<<"Adult";
+    // }
+    
+
+
+
+
+
+    
+
+
+
+
     return 0;
 
 
