@@ -134,7 +134,79 @@ int main()
     // {
     //     cout<<"Adult";
     // }
+
+
+
+    // # Find Greater No.-----------------
+
+
+    // int a,b,c;
+    // cout<<"Enter an three no.:";
+    // cin>>a>>b>>c;
+    // if(a<b && b<c)
+    // {
+    //     cout<<"Greater no. is :"<<c;
+
+    // }
+    // else if(a<b && c<b)
+    // {
+    //      cout<<"Greater no. is :"<<b;
+    // }
+    // else if(a>b && a>c)
+    // {
+    //     cout<<"Greater no. is :"<<a;
+
+    // }
+    // else
+    // {
+    //  cout<<"Given No. is Equal";
+    // }  
+
+
+    // Check vowels----------------------
+
+    // char ch;
+
+    // cout<<"Enter a char:";
+    // cin>>ch;
+    // if(ch=='a' ||ch=='e' ||ch=='i' ||ch=='o' ||ch=='u' )
+    // {
+    //     cout<<"char is Vowel.";
+    // }
+    // else
+    // cout<<"You are enter another char.";
+
+
+        // check alph and digits------------------------------
+
+    // char ch;
+    // cout<<"Enter any char:";
+    // cin>>ch;
+    // if(ch>=97 && ch<=122)
+    // {
+    //     cout<<"Char is Smaller letter alph.";
+    // }
+    // else if(ch>=65 && ch<=90)
+    // {
+    //     cout<<"Char is Capital letter alph.";
+
+    // }
+    //  else if(ch>=49 && ch<=57)
+    //   {
+    //     cout<<"Char is Digit.";
+    //   }
+    //   else
+    //  {
+    //     cout<<"Others Char.";
+    //  }
+
+
+
+   
+  
     
+
+
 
 
 
