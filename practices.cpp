@@ -161,6 +161,31 @@ int main()
     // {
     //  cout<<"Given No. is Equal";
     // }  
+    // int a,b,c;
+    // cout<<"Enter 3 Integers";
+    // cin>>a>>b>>c;
+    // if(a<b)
+    // {
+    //     if(b<c)
+    //     {
+    //         cout<<"Greater no. is :"<<c;
+    //     }
+    //     else
+    //     cout<<"Greater no. is :"<<b;
+    // }
+    // else 
+    // {
+    //     if(a>b)
+    //     {
+    //         if(a>c)
+    //         {
+    //             cout<<"Greater no. is :"<<a;
+    //         }
+    //         else
+    //         cout<<"Greater no. is :"<<c;
+
+    //     }
+    // }
 
 
     // Check vowels----------------------
@@ -201,23 +226,22 @@ int main()
     //  }
 
 
+    // # Ternary Operator-----------------------
+    // int a,b;
+    // cout<<"Enter 2 Integers:";
+    // cin>>a>>b;
+    // (a>b)?(cout<<"Greater no. is: a"):(cout<<"Greater no. is: b");
+
+    
+
+
+
+    
+
+
 
    
-  
-    
-
-
-
-
-
-
-
-    
-
-
-
-
-    return 0;
+  return 0;
 
 
 
