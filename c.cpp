@@ -922,7 +922,7 @@ int main()
 // for( int r=1;r<=5;++r)
 // {
 
-// King, [5/17/2025 10:50 PM]
+
 // for( int c=1;c<=5;++c)
 // {
 
@@ -1023,22 +1023,22 @@ int main()
 
 
 
-char a='a';
-for(int r=1;r<=5;++r)
-{
-    for(int c=1;c<=5;++c)
-    {
-        if(c<=r)
-        {
-cout<<a++;
-        }
-        else
-        {
-cout<<" ";
-        }
-    }
-    cout<<endl;
-}
+// char a='a';
+// for(int r=1;r<=5;++r)
+// {
+//     for(int c=1;c<=5;++c)
+//     {
+//         if(c<=r)
+//         {
+// cout<<a++;
+//         }
+//         else
+//         {
+// cout<<" ";
+//         }
+//     }
+//     cout<<endl;
+// }
 
 
 

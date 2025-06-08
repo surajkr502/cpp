@@ -323,6 +323,71 @@ int main()
 // }
 // cout<<"Sum of this No. is :"<<sum;
 
+// Armstronge Number-----------------------
+
+// int a,rem=0,sum,n;
+// cout<<"Enter Armstronge No.";
+// cin>>a;
+// n=a;
+// for(sum=0;a>0;a=a/10)
+// {
+//   rem=a%10;
+//   sum=sum+rem*rem*rem;
+// }
+
+// if(sum==n)
+
+//   cout<<"This is Armstronge No.";
+
+// else
+// cout<<"This is Not an Armstronge No.";
+
+// Nested loop-----------------------------------
+
+
+// int a;
+// for(int i=1;i<=4;i++)
+// {
+//   for(int j=1;j<=4;j++)
+//   {
+//     cout<<'*';
+//   }
+//    cout<<'\n';
+// }
+
+// Pattern Printing-------------
+
+// for(int r=1;r<=5;r++)
+// {
+//   for(int c=1;c<=5;c++)
+//   {
+//     if(c<=r)
+//     {
+// cout<<"*";
+//     }
+//     else
+// cout<<" ";
+    
+//   }
+//   cout<<endl;
+  
+// }
+
+for(int r=1;r<=5;r++)
+{
+  for(int c=1;c<=5;c++)
+  {
+    if(c>=r)
+    {
+cout<<"*";
+    }
+    else
+cout<<" ";
+    
+  }
+  cout<<endl;
+  
+}
 
 
 
